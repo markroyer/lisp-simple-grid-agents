@@ -7,9 +7,8 @@ The program is a simulator that runs a reflex agent and a history
 agent on a some grids.  The program can be run by loading the file
 agents.asd and invoking either of the following two functions:
 
-```lisp
-simple-agents:run simple-agents:run-simulator
-```
+1. simple-agents:run
+2. simple-agents:run-simulator
 
 The function `simple-agents:run` is a customizable way to run a single
 experiment.  For ease of use the function `simple-agents:run-simulator`
